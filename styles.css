@@ -92,7 +92,7 @@ header #toggle:after {
 	right: -200px;
 	width: 400px;
 	height: 100vh;
-	background: #40c3ff;
+	background: #ff0000;
 	z-index: 1;
 	display: grid;
 	place-items: center;
@@ -134,7 +134,7 @@ header #toggle:after {
 }
 
 .content h2 span {
-	color: #40c3ff;
+	color: #ff0000;
 	font-size: 1.2em;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -223,4 +223,8 @@ header #toggle:after {
 		margin: initial;
 		margin-right: 10px;
 	}
+}
+
+.logo {
+	cursor: default;
 }
