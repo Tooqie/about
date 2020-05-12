@@ -1,38 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="UTF-8">
-	<title>About me</title>
-	<link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+	<title>Login</title>
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-	<section class="banner" id="sec">
-		<header>
-			<a href="#" class="logo">Logo</a>
-				<div id="toggle" onclick="toggle()"></div>
-     </header>
-     <div class="content">
-     	<h2>Hello World,<br>I'm <span>Maksym</span></h2>
-     	<p>I am a newbie coder who based in Drohobych, UA. Currently im studying HTML,CSS,JavaScript and other Front-end languages. Also i like to do some logo designs, play games with my friends and watch films.</p>
-     	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">See more</a>
-     	</div>	
-     	<ul class="sci">
-     		<li><a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" class="facebook"></a></li>
-     	</ul>
-	</section>
-	<div id="navigation">
-		<ul>
-			<li><a href="https://docs.google.com/document/d/1PuC3O4MjxgBCwRGbI9WM5Gs7whh5vwvsFZlgVUPleUQ/edit?usp=sharing">Contact</a></li>
-		</ul>
-	</div>
-	<script type="text/javascript">
-		function toggle(){
-			var sec = document.getElementById('sec');
-			var nav = document.getElementById('navigation');
-			sec.classList.toggle('active');
-			nav.classList.toggle('active');
-		}
-	</script>
+
+<form class="box" action="index.html" method="post">
+	<h1>Login</h1>
+	<input type="text" name="" placeholder="Username">
+	<input type="password" name="" placeholder="Password">
+	<input type="submit" name="" placeholder="Login">
+</form>
 </body>
 </html>
